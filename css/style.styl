@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
-.navbar
-	margin-bottom 0
+
 .logo
 	width 50px
 	
 .Portada
 	&-img
 		width 100%
+		filter blur(1.5px)
 		
 // CENTRADO DE MENU	
 @media (min-width 768px)
@@ -16,3 +16,18 @@
 		display table
 		table-layout fixed
 // FIN DE CENTRADO DE MENU
+
+// MODIFICACIONES AL BOOTSTRAP
+.navbar
+	margin-bottom 0
+	
+.nav
+	text-align center
+	
+.navbar-default .navbar-nav>li>a:hover
+	border-bottom 2px solid #4aa75d
+	
+.container-fluid
+	padding 0
+
+// FIN DE MODIFICACIONES BOOTSTRAP

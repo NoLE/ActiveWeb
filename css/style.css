@@ -1,2 +1,2 @@
 @import url("http://fonts.googleapis.com/css?family=Lobster");
-.navbar{margin-bottom:0}.logo{width:50px}.Portada-img{width:100%}@media (min-width:768px){.navbar-nav{float:none;margin:0 auto;display:table;table-layout:fixed}}
+.logo{width:50px}.Portada-img{width:100%;filter:blur(1.5px)}@media (min-width:768px){.navbar-nav{float:none;margin:0 auto;display:table;table-layout:fixed}}.navbar{margin-bottom:0}.nav{text-align:center}.navbar-default .navbar-nav>li>a:hover{border-bottom:2px solid #4aa75d}.container-fluid{padding:0}
