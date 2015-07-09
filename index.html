@@ -11,8 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <meta name="viewport" content="width=divice-width, maximum-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/bootstrap.min.js"></script>
-   <!-- <script src="js/prefixfree.min.js"></script> -->
+   <script src="js/prefixfree.min.js"></script>
 
     
   </head>
@@ -26,44 +25,69 @@
     </div> -->
 
 
-    <nav class="navbar navbar-default" id="menu" >
-<!--       <div class="container-fluid"> -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#colapzar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <figure class=imagen-container>
-              <img src="img/logo-negro.png" class="logo" />
-            </figure>
+<nav class="navbar navbar-default" id="menu" >
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#desplegar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <figure class=imagen-container>
+       <img src="img/logo-negro.png" class="logo" />
+      </figure>
           <!-- <a class="navbar-brand" href="#">Brand</a> -->
-        </div>
-        <div class="collapse navbar-collapse" id="colapzar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Diseño Web</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>   
-        </div>
-<!--       </div> -->
-    </nav>
-        <section class="Portada">
+    </div>
+    <div class="collapse navbar-collapse" id="desplegar">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="#"><soan class="glyphicon glyphicon-paperclip"></soan> Planes</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-blackboard"></span> Plantillas</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-send"></span> Contacto</a></li>
+      </ul>   
+    </div>
+  </div>
+</nav>
+  <section class="Portada">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
           <article class="Portada-article">
-            <figure class="Portada-container-img">
-              <img src="img/cover_iMac.jpg" alt="portada" class="Portada-img" />
-            </figure>
             <figure class="Portada-container-logo">
               <img src="img/logo.png" alt="portada" class="Portada-logo"/>
             </figure>
+            <p class="Portada-frase">ActiveWeb</br>
+            Diseño Web del futuro</p>
+          </article>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <article class="Work-article">
+            <p class="Work-title">Nuestro Trabajo</p>
+            <p class="Work-text">
+              Nuestro trabajo consiste en ayudar a personas y empresas a desarrollar sorprendentes sitios Web de acuerdo a las necesidades de sus usuarios enfocandonos simplemente en los resultados.
+            </p>
           </article>
-        </section>
-<!-- <script src="js/index.js"></script> -->
-
-
+        </div> 
+          <div class="col-md-6">
+          <article class="Work-article">
+            <p class="Work-title">Nuestro Trabajo</p>
+            <p class="Work-text">
+              Nuestro trabajo consiste en ayudar a personas y empresas a desarrollar sorprendentes sitios Web de acuerdo a las necesidades de sus usuarios enfocandonos simplemente en los resultados.
+            </p>
+          </article>
+          </div> 
+      </div>
+    </div>
+  </section>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
-  
