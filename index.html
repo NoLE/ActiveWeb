@@ -3,26 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>ActiveWeb</title>
-    
-    
-    <link rel="stylesheet" href="css/normalize.css" />
+    <meta name="description" content="Desarrollo Web al mejor precio y rapido. Diseñamos tu Pagina Web adaptable a dispositivos moviles con Planes accecibles y muchos modelos de Plantillas para tu negocio, nuestros servicios incluyen, creacion de Correos, Dominio, Pagina Web Auto Administrable, Posicionamiento en Buscadores">
+    <link rel="stylesheet" href="css/eskju.jquery.scrollflow.css"/>
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="stylesheet" href="css/intro.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <meta name="viewport" content="width=divice-width, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="img/mifavicon.png" />
     <link rel="stylesheet" href="css/style.css" />
    <script src="js/prefixfree.min.js"></script>
-
-    
   </head>
+<body>
 
-  <body>
-
-<!--     <div class="enter">
-      <a class="enter_btn" href="#">Entrar</a>
-      <span class="divider"></span>
-      <span class="copyright">Copyright &copy; 2015 ActiveWeb</span>
-    </div> -->
+  <div class="enter">
+    <a class="enter_btn" href="#">Entrar</a>
+    <span class="divider"></span>
+    <span class="copyright">Copyright &copy; 2015 ActiveWeb</span>
+  </div>
 
 
 <nav class="navbar navbar-default" id="menu" >
@@ -41,21 +38,24 @@
     </div>
     <div class="collapse navbar-collapse" id="desplegar">
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-paperclip"></span> Planes</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-blackboard"></span> Plantillas</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-send"></span> Contacto</a></li>
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="precios.html"><span class="glyphicon glyphicon-paperclip"></span> Precios</a></li>
+        <li><a href="plantillas.html"><span class="glyphicon glyphicon-blackboard"></span> Plantillas</a></li>
+        <li><a href="contacto.html"><span class="glyphicon glyphicon-send"></span> Contacto</a></li>
       </ul>   
     </div>
   </div>
 </nav>
   <section class="Portada">
-    <div class="container-fluid">
+    <div class="sinpadding container-fluid">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="Portada-col col-lg-12">
           <article class="Portada-article">
+            <figure class="Portada-fondoContainer">
+              <img src="img/intro.jpg" alt="Portada ActiveWeb" title="Portada ActiveWeb" class="Portada-fondo">
+            </figure>
             <figure class="Portada-container-logo">
-              <img src="img/logo.png" alt="portada" class="Portada-logo"/>
+              <img src="img/logo.png" alt="Logo ActiveWeb" title="Logo ActiveWeb" class="Portada-logo"/>
             </figure>
             <p class="Portada-frase">ActiveWeb</br>
             Diseño Web del futuro</p>
@@ -67,30 +67,83 @@
   <section class="Work">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="sinpadding col-md-12">
           <article class="Work-article">
-            <p class="Work-title">Nuestro Trabajo</p>
-            <p class="Work-text">
-              Nuestro trabajo consiste en ayudar a personas y empresas a desarrollar sorprendentes sitios Web de acuerdo a las necesidades de sus usuarios enfocandonos simplemente en los resultados.
+            <p class="Work-title scrollflow -pop -opacity">Nuestro Trabajo</p>
+            <p class="Work-text scrollflow -pop -opacity">
+              Nuestro objetivo consiste en ayudar a personas y empresas a desarrollar sorprendentes Paginas Web de acuerdo a sus necesidades y requerimientos.
             </p>
           </article>
         </div> 
-          <div class="col-md-6">
-          <article class="Work-article">
-            <p class="Work-title">Nuestro Trabajo</p>
-            <p class="Work-text">
-              Nuestro trabajo consiste en ayudar a personas y empresas a desarrollar sorprendentes sitios Web de acuerdo a las necesidades de sus usuarios enfocandonos simplemente en los resultados.
-            </p>
-          </article>
-          </div> 
-      </div>
     </div>
   </section>
-  <footer>
-    
+  <section class="Esp">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="sinpadding col-md-12">
+          <article class="Esp-article">
+            <p class="Esp-title scrollflow -pop -opacity">Mi Especialización</p>
+            <p class="Esp-text scrollflow -pop -opacity">
+              “ Diseñar y Desarrollar Paginas Webs Profesionaes, en conjunto con una interfaz amigable, util y moderna creara en el usuario una experiencia agradable.
+              
+              Este es el tipo de pensamiento que me gusta aplicar al desarrollar y diseñar una Pagina Web, siempre pensando en el usuario final. ”
+            </p>
+            <figure class="Esp-Containerlogo">
+              <img src="img/logo-blanco.png" class="Esp-logo scrollflow -pop -opacity"></img>
+            </figure>
+            <h3 class="Esp-firma scrollflow -pop -opacity">
+              ActiveWeb
+            </h3>
+          </article>
+        </div> 
+    </div>
+  </section>
+  <section class="Design">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="sinpadding col-md-12">
+          <article class="Design-article">
+            <h3 class="Design-title scrollflow -pop -opacity">
+              Diseño a la Medida
+            </h3>
+            <p class="Design-text scrollflow -slide-top -opacity">
+              Me corresponde hacer que tu web se vea muy bien en cualquier dispositivo, manejo mucho el concepto responsive design,primero pensando desde el diseño de un móvil hasta llegar al diseño fluido de un desktop. El uso de dispositivos móviles va en aumento y la demanda de sitios web con diseño responsive de igual manera.
+            </p>
+            <p class="Design-Containeriphone">
+              <img src="img/iPhone.png" alt="Diseño Movil" title="Diseño Movil" class="Design-iphone"></img>
+            </p>
+            <p class="Design-Containeripad">
+              <img src="img/iPad_air.png" class="Design-ipad" alt="Diseño Tablet" title="Diseño Tablet" class="Design-ipad"></img>
+            </p>
+        </article>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer class="Footer">
+    <div class="sinpadding container-fluid">
+      <div class="Footer-alto row">
+        <div class="sinpadding col-md-12">
+          <div class="Footer-article">
+            <span class="Footer-copyright">Copyright &copy; 2015 ActiveWeb</span>
+                <div class="Footer-icons">
+                  <a class="icon-facebook"></a>
+                  <a class="icon-google-plus"></a>
+                  <a class="icon-twitter"></a>
+                  <a class="icon-youtube"></a>
+                  <a class="icon-github"></a>
+                  <a class="icon-linkedin"></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/eskju.jquery.scrollflow.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+

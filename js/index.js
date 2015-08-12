@@ -100,3 +100,26 @@ var js = (function(){
 
 // Call functions
 js.run();
+
+    (function(){
+      var aboutEl = $('.Design-Containeriphone'),
+      aboutElOffset = aboutEl.offset().top/2,
+      documentEl = $(document);
+
+      documentEl.on('scroll', function() {
+        if(documentEl.scrollTop() > 730)aboutEl.addClass('animation-start');
+        else 
+          aboutEl.removeClass('animation-start');
+    });
+                })();
+    (function(){
+      var aboutEl = $('.Design-Containeripad'),
+      aboutElOffset = aboutEl.offset().top/2,
+      documentEl = $(document);
+
+      documentEl.on('scroll', function() {
+        if(documentEl.scrollTop() > 750)aboutEl.addClass('animation-start2');
+        else 
+          aboutEl.removeClass('animation-start2');
+    });
+                })();
