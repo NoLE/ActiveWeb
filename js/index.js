@@ -123,3 +123,4 @@ js.run();
           aboutEl.removeClass('animation-start2');
     });
                 })();
+

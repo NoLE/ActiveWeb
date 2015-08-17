@@ -6,13 +6,13 @@
     
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/icons.css" />
-<!--     <link rel="stylesheet" href="css/intro.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <meta name="viewport" content="width=divice-width, maximum-scale=1" />
     <link rel="icon" type="image/png" href="img/mifavicon.png" />
     <link rel="stylesheet" href="css/style.css" />
-   <script src="js/prefixfree.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/fcontacto.js"></script>
   </head>
 <body>
 
@@ -32,7 +32,7 @@
     </div>
     <div class="collapse navbar-collapse" id="desplegar">
       <ul class="nav navbar-nav">
-        <li><a href="#"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="inicio.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-paperclip"></span> Planes</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-blackboard"></span> Plantillas</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-send"></span> Contacto</a></li>
@@ -40,20 +40,37 @@
     </div>
   </div>
 </nav>
-<section class="contacto">
+<section class="Contacto">
   <div class="row">
-    <div class="col-md-6">
-      <form>
-    <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-    </div>
-    <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</form>
+    <div class="col-md-12">
+      <h1 class="Contacto-title">Contactanos</h1>
+      <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+          <label>Tu Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Nombre" name="name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+          <label>Tu E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="E-mail" name="email">
+          </div>
+        </div>
+      </div>
+        <div class="form-group">
+          <label>Asunto</label>
+          <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto">
+        </div>
+        <div class="form-group">
+          <label>Tu Mensaje</label>
+          <textarea class="form-control" id="asunto" placeholder="Mensaje" name="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" class="btn btn-success" value="Enviar">
+
+        <div id="respuesta"></div>
+      </form>
     </div>
   </div>
 </section>
