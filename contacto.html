@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/prefixfree.min.js"></script>
     <script src="js/fcontacto.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 <body>
 
@@ -44,7 +45,7 @@
   <div class="row">
     <div class="col-md-12">
       <h1 class="Contacto-title">Contactanos</h1>
-      <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+      <form method="POST" name="fcontacto" id="fcontacto" action="./">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
@@ -67,6 +68,7 @@
           <label>Tu Mensaje</label>
           <textarea class="form-control" id="asunto" placeholder="Mensaje" name="mensaje" cols="30" rows="10"></textarea>
         </div>
+        <div class="g-recaptcha" data-sitekey="6LfEewsTAAAAAAlQQVjcQ8SXsYkKcLCK0LuNFcnx"></div>
         <input type="submit" class="btn btn-success" value="Enviar">
 
         <div id="respuesta"></div>
@@ -95,6 +97,7 @@
     </div>
   </footer>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/fcontacto.js"></script>
     <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
